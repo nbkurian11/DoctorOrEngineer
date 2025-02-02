@@ -6,6 +6,7 @@ public class Main {
 	
 	static Scanner s;
 	static Scanner x;
+	static Scanner a;
 	
 	public static void main (String[] args) {
 		
@@ -101,12 +102,38 @@ public class Main {
 
 	private static void doctor() {
 		// TODO Auto-generated method stub
-		System.out.println("To become a doctor you must go through a lot of schooling. \n"
-				+ "Get a bachelors degree, pass the MCAT, get into medical school, complete your resisdancy, and then you are \n"
-				+ "a doctor.");
+		System.out.println("What type of doctor do you want to be? \n"
+				+ "1. Family Physician \n2. Pediatrician \n3. Surgeon");
+		
+		a = new Scanner(System.in);
+		int g = a.nextInt();
+		switch (g) {
+		case 1: fam();
+		break;
+		case 2: pt();
+		break;
+		case 3: surgeon();
+		}
+	}
+
+	private static void surgeon() {
+		// TODO Auto-generated method stub
+		System.out.println("This is how you become a surgeon.");
+		
+	}
+
+	private static void pt() {
+		// TODO Auto-generated method stub
+		System.out.println("This is how you become a Pediatrician.");
+		
+	}
+
+	private static void fam() {
+		// TODO Auto-generated method stub
+		System.out.println("This is how you become a family physician.");
+		
 	}
 	
 	
 
 }
-
