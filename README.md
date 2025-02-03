@@ -1,4 +1,1 @@
-TO DO:
-
-
-add descriptions for different doctors
+Terminal application that educates the user regarding different career paths. 
