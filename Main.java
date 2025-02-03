@@ -118,19 +118,22 @@ public class Main {
 
 	private static void surgeon() {
 		// TODO Auto-generated method stub
-		System.out.println("This is how you become a surgeon.");
+		System.out.println("This is how you become a surgeon. In differs between countries. But in Canada, \n"
+				+ "you need to get a bachelors degree, complete medical school and complete a surgicial residency program. ");
 		
 	}
 
 	private static void pt() {
 		// TODO Auto-generated method stub
-		System.out.println("This is how you become a Pediatrician.");
+		System.out.println("This is how you become a Pediatrician. In Canada, you must complete a bachelors degree,"
+				+ "get into and complete medical school and complete a residency program.");
 		
 	}
 
 	private static void fam() {
 		// TODO Auto-generated method stub
-		System.out.println("This is how you become a family physician.");
+		System.out.println("This is how you become a family physician. Complete a bachelors degree, \n"
+				+ "Complete medical school, and complete a residency program.");
 		
 	}
 	
